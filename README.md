@@ -1,16 +1,3 @@
-### Legacy Groups:
-
-#### Group 1:
-- Theresa
-- Jenele
-- Bronson
-
-#### Group 2:
-- Pete
-- Steve
-- Kristen
-
-
 ### Stand up
 - Completed tasks
     - new task assignment
