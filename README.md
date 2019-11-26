@@ -39,11 +39,11 @@
 - `git branch -b my-new-feature-branch`
 - ADD, COMMIT, PUSH TO YOUR FEATURE BRANCH
 - WHEN Feature is functional:
-    - `git checkout dev`
-    - `git pull origin dev`
-    - `git checkout my-new-feature-branch`
-    - `git merge dev`
-    - HANDLE local Conflicts
+    - `git checkout dev` (locally check out dev branch)
+    - `git pull origin dev` (make sure it's up to date)
+    - `git checkout my-new-feature-branch` (go back to your feature branch)
+    - `git merge dev` (upate your feature branch with any changes from dev)
+    - HANDLE local Conflicts (VScode will show you your conflicts)
     - Git add, commit, and push
     - AFTER conflicts are resolved:
         - ON Github.com: Open a PULL request feature branch INTO the `dev` branch
