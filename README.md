@@ -35,8 +35,9 @@
 - Every team member clones from that org's source
 
 ### GIT WORKFLOW:
-- `git checkout dev`
-- `git branch -b my-new-feature-branch`
+- `git checkout dev` (go to dev branch)
+- `git pull origin dev` (get any updates from github)
+- `git branch -b my-new-feature-branch` (cut your branch off of the most up-to-date dev branch)
 - ADD, COMMIT, PUSH TO YOUR FEATURE BRANCH
 - WHEN Feature is functional:
     - `git checkout dev` (locally check out dev branch)
